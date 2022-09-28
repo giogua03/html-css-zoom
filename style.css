@@ -24,8 +24,9 @@ footer{
     
 }
 .container{
-    max-width: calc((100% / 7) - 1rem);
+    width: calc((100% / 7) - 1rem);
     background-color: blueviolet;
+    z-index: 3;
    
     
 }
@@ -34,7 +35,9 @@ footer{
     flex-wrap: wrap;
     gap: 1rem;
     background-color: aliceblue;
+    z-index: 2;
 }
 body{
     background-color: black;
+    z-index: 0;
 }
