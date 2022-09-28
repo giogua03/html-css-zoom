@@ -25,6 +25,7 @@ footer{
 }
 .container{
     max-width: calc((100% / 7) - 1rem);
+    background-color: blueviolet;
    
     
 }
@@ -32,4 +33,8 @@ footer{
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+    background-color: aliceblue;
+}
+body{
+    background-color: black;
 }
