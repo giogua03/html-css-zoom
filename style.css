@@ -12,6 +12,7 @@ main{
     height: calc(100vh - 65px -65px);
     background-color:black;
     margin-top: 65px;
+
 }
 footer{
     height: 65px;
@@ -20,13 +21,16 @@ footer{
     right: 0%;
     left: 0%;
     background-color: beige;
-    margin:1rem;
-}
-main{
-    max-width: calc((100% / 7) - 1rem);
+    
 }
 .container{
+    max-width: calc((100% / 7) - 1rem);
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.cnt{
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+    max-width: 1000px;
 }
