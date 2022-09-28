@@ -24,7 +24,7 @@ footer{
     
 }
 .container{
-    width: calc((100% / 7) - 1rem);
+    width: 100px;
     background-color: blueviolet;
     z-index: 3;
    
