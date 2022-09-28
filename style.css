@@ -25,12 +25,11 @@ footer{
 }
 .container{
     max-width: calc((100% / 7) - 1rem);
-    flex-wrap: wrap;
-    gap: 1rem;
+   
+    
 }
 .cnt{
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-    max-width: 1000px;
 }
