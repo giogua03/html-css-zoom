@@ -1,0 +1,32 @@
+
+
+header{
+    height: 65px;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    background-color: beige;
+}
+main{
+    height: calc(100vh - 65px -65px);
+    background-color:black;
+    margin-top: 65px;
+}
+footer{
+    height: 65px;
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    background-color: beige;
+    margin:1rem;
+}
+main{
+    max-width: calc((100% / 7) - 1rem);
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
